@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sivasuryaassociates.in/sitemap.xml
+
+# Block version history files
+Disallow: /*-v1*
+Disallow: /*-v2*
+Disallow: /*-v3*
+Disallow: /*-v4*
+Disallow: /*-v5*
+Disallow: /*-v6*
+Disallow: /*-v7*
+Disallow: /*-v8*
+Disallow: /*-v9*
+Disallow: /*-backup*
+Disallow: /*-old*
+
+# Crawl delay for bots
+Crawl-delay: 10
